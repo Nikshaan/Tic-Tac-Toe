@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe | Nikshaan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="x-icon" href="icon.png">
+</head>
+
+<body>
+<div class="navbar">
+    <div class="nav-left">
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-globe"></i>
+    </div>
+    <div class="game-name">
+        <h3>TIC-TAC-TOE</h3>
+    </div>
+    <div class="nav-right">
+        <i class="fa-solid fa-gears"></i>
+        <i class="fa-solid fa-basket-shopping"></i>
+    </div>
+</div>
+
+<div class="game-info">
+    <h3 id="player-turn">Player 1 needs to Play</h3>
+    <h4 id="player-symbol">You are X</h4>
+</div>
+
+<div class="scoreboard">
+    <div class="p1">
+        <p id = "p1-user">P1</p>
+        <p id="p1-points">0</p>
+    </div>
+    <button id="playAgain" onclick="restart()">Play again</button>
+    <div class="p2">
+        <p id = "p2-user">P2</p>
+        <p id = 'p2-points'>0</p>
+    </div>
+</div>
+
+<div class="game-area"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
