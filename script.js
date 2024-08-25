@@ -93,6 +93,7 @@ function playGame(id){
                     }
                     playAgain.style.display = "flex";
                     chance = 9;
+                    break;
                 }
 
                 else if(chance == 8){
